@@ -3,9 +3,11 @@ document.getElementById('title').style.color='green'
 document.getElementById('fru').style.textTransform='uppercase'
 document.getElementById('veg').style.textTransform='uppercase'
 
-// document.body.style.backgroundImage="url('matunda.jpeg')";
-// document.body.style.backgroundRepeat='no-repeat';
-// document.body.style.backgroundSize='cover';
+document.body.style.backgroundImage="url('fruits.jpg')";
+document.body.style.backgroundRepeat='no-repeat';
+document.body.style.backgroundSize='cover';
+// document.body.style.backgroundPosition='right';
+
 
 let fruitList = document.getElementById("fruList");
 let newFruits = ["Apples", "Pawpaw", "Oranges", "Grapes"];
@@ -25,10 +27,10 @@ for (var i = 0; i < newVegetables.length; i++) {
 }
 
 
-image.src = "matunda.jpeg";
-image.style.float = "left";
-image.style.marginLeft = "40%";
-// image.style.marginTop = "-20%"
-document.body.appendChild(image);
+// image.src = "matunda.jpeg";
+// image.style.float = "left";
+// image.style.marginLeft = "40%";
+// // image.style.marginTop = "-20%"
+// document.body.appendChild(image);
 
 
